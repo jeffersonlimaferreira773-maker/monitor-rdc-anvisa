@@ -37,4 +37,7 @@ def buscar_atualizacoes_anvisa():
         print(f"Erro na execução: {e}")
 
 if __name__ == "__main__":
+    # Linha de teste: o robô vai te mandar isso assim que rodar!
+    enviar_alerta_telegram("🚀 *Teste de Conexão:* O monitor da ANVISA está ativo e configurado com sucesso!")
+    
     buscar_atualizacoes_anvisa()
